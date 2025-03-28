@@ -1,0 +1,43 @@
+.lastTweets {
+    border-bottom: solid #3E3E2C;
+    height: 250px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info > * {
+    margin: 0 10px;
+}
+
+.contact > * {
+    margin: 0 5px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.content {
+    margin: 10px 20px;
+}
+
+.icons {
+    margin: 10px 20px;
+}
+
+.icons > * {
+    margin: 0 5px;
+}
+
+.grey {
+    color: #677180;
+}

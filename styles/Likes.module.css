@@ -1,0 +1,15 @@
+.trends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.grey {
+  color: #677180;
+}
+
+.trends:hover {
+  background-color: #3a3b23;
+  border-radius: 10px;
+}

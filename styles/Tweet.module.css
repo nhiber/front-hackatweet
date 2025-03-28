@@ -1,0 +1,54 @@
+.tweet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-bottom: solid #3E3E2C;
+}
+
+.title {
+    margin-left: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 80%;
+    background-color: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.button {
+    border-radius: 30px;
+    height: 30px;
+    width: 90px;
+    background-color: #f3bc23;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}

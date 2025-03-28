@@ -1,0 +1,38 @@
+.hashtag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    border-bottom: solid #3E3E2C;
+    align-items: center;
+}
+
+.title {
+    margin-left: 40px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.input {
+    width: 80%;
+    background-color: #2B2C1B;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+
+.input:focus {
+    outline: none;
+}
